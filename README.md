@@ -1,23 +1,31 @@
 # Our Road to Forever
 
-A rustic SwiftUI scrapbook for Ryan and Liz's road to the wedding. The app opens
-like a leather-bound book and uses Apple's interactive page-curl transition.
+A rustic scrapbook for Ryan and Liz's road to the wedding, built from one Expo
+codebase for both Apple and Android phones and tablets.
 
 ## What's included
 
-- A finished rustic cover, welcome page, and proposal placeholder
-- Worn-paper memory pages that work with or without photos
-- Up to four photos per page with rectangle, rounded, oval, and heart frames
+- A leather-bound cover with an interactive swipe-to-turn book
+- Finished welcome and proposal-placeholder pages
+- Worn-paper memory pages that work before photos are added
+- Up to four photos per page with rectangle, rounded, oval, and heart styling
 - Captions, dates, milestone ideas, stories, and contributor details
 - A chronological wedding timeline
-- Addable pages and local, private on-device storage
+- Expandable pages and private on-device storage
 
-## Run the app
+## Run on Apple and Android
 
-1. Open `RoadToForever.xcodeproj` in Xcode 16 or newer.
-2. Select your Apple development team under **Signing & Capabilities**.
-3. Choose an iPhone or iPad simulator and press Run.
+Install Node.js 22.13 or newer, then:
 
-The app targets iOS 17 and has no third-party dependencies. Its paper, wood,
-tape, and leather appearance is drawn in SwiftUI, so no image assets are needed.
-Photos can be added later from each blank page.
+```bash
+npm install
+npm run start
+```
+
+Scan the QR code with Expo Go on an iPhone, iPad, Android phone, or Android
+tablet. You can also press `i` for an iOS simulator on macOS or `a` for an
+Android emulator.
+
+The rustic paper, wood, tape, and leather appearance is drawn in the app, so no
+starter image assets are required. Photos can be added later from any blank
+memory page and are copied into the app's private document storage.
