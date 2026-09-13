@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "Our Road to Forever",
+    "slug": "our-road-to-forever",
+    "version": "1.0.0",
+    "orientation": "default",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.timburns.roadtoforever"
+    },
+    "android": {
+      "package": "com.timburns.roadtoforever",
+      "predictiveBackGestureEnabled": true
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Choose photos to add to your Road to Forever scrapbook.",
+          "cameraPermission": false,
+          "microphonePermission": false
+        }
+      ]
+    ]
+  }
+}
